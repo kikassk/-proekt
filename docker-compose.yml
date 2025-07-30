@@ -1,4 +1,4 @@
-version: '3'
+
 
 services:
   nginx:
@@ -27,11 +27,13 @@ services:
   db:
     image: mariadb
     environment:
-      MARIADB_RANDOM_ROOT_PASSWORD: 'ok'
+      MYSQL_ROOT_PASSWORD: rootpassword123  # или другой надежный пароль
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
     env_file:
       - .env
     volumes:
       - ./db:/var/lib/mysql
     ports:
       - '${DATABASE_EXTERNAL_PORT}:3306'
-
