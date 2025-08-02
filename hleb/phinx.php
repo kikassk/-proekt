@@ -18,12 +18,12 @@ return
             'port' => '3306',
             'charset' => 'utf8',
         ],
-        'development' => [
+         'development' => [
             'adapter' => 'mysql',
-            'host' => 'localhost',
-            'name' => 'development_db',
-            'user' => 'root',
-            'pass' => '',
+            'host' => '172.21.0.2', // <--- ВАШ IP-АДРЕС СЮДА
+            'name' => 'hleb',
+            'user' => 'hleb',
+            'pass' => 'toaster',
             'port' => '3306',
             'charset' => 'utf8',
         ],
