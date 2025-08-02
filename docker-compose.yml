@@ -23,6 +23,7 @@ services:
       - ./log:/log
       - ./docker/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini:ro
       - ./.env:/hleb/.env:ro
+      - ./docker/root:/root
 
   db:
     image: mariadb

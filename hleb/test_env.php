@@ -1,0 +1,1 @@
+<?php ini_set('display_errors', 1); error_reporting(E_ALL); echo 'DB_HOST: ' . getenv('DB_HOST') . "\n"; echo 'DB_DATABASE: ' . getenv('DB_DATABASE') . "\n"; echo 'DB_USERNAME: ' . getenv('DB_USERNAME') . "\n"; echo 'DB_PASSWORD: ' . getenv('DB_PASSWORD') . "\n"; ?>
