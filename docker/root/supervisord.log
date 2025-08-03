@@ -4,3 +4,43 @@
 2025-08-02 18:49:25,715 INFO spawned: 'telegram-bot' with pid 20
 2025-08-02 18:49:26,780 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2025-08-02 18:49:26,782 INFO success: telegram-bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-02 19:53:30,367 INFO reaped unknown pid 92 (exit status 0)
+2025-08-02 19:54:06,413 INFO reaped unknown pid 120 (exit status 0)
+2025-08-02 21:18:35,144 INFO reaped unknown pid 328 (exit status 0)
+2025-08-03 19:25:41,654 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-03 19:25:41,670 INFO supervisord started with pid 1
+2025-08-03 19:25:42,675 INFO spawned: 'php-fpm' with pid 12
+2025-08-03 19:25:42,684 INFO spawned: 'telegram-bot' with pid 13
+2025-08-03 19:25:43,888 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-03 19:25:43,892 INFO success: telegram-bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-03 19:32:54,622 INFO reaped unknown pid 51 (exit status 0)
+2025-08-03 19:53:40,517 WARN received SIGQUIT indicating exit request
+2025-08-03 19:53:40,521 INFO waiting for php-fpm, telegram-bot to die
+2025-08-03 19:53:40,524 WARN stopped: telegram-bot (terminated by SIGTERM)
+2025-08-03 19:53:40,571 INFO stopped: php-fpm (exit status 0)
+2025-08-03 19:53:58,279 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-03 19:53:58,290 INFO supervisord started with pid 1
+2025-08-03 19:53:59,295 INFO spawned: 'php-fpm' with pid 12
+2025-08-03 19:53:59,301 INFO spawned: 'telegram-bot' with pid 13
+2025-08-03 19:54:00,386 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-03 19:54:00,387 INFO success: telegram-bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-03 20:11:18,371 WARN received SIGQUIT indicating exit request
+2025-08-03 20:11:18,373 INFO waiting for php-fpm, telegram-bot to die
+2025-08-03 20:11:18,376 WARN stopped: telegram-bot (terminated by SIGTERM)
+2025-08-03 20:11:18,385 INFO stopped: php-fpm (exit status 0)
+2025-08-03 20:11:35,022 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-03 20:11:35,032 INFO supervisord started with pid 1
+2025-08-03 20:11:36,037 INFO spawned: 'php-fpm' with pid 12
+2025-08-03 20:11:36,044 INFO spawned: 'telegram-bot' with pid 13
+2025-08-03 20:11:37,111 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-03 20:11:37,113 INFO success: telegram-bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-03 20:30:06,855 WARN received SIGQUIT indicating exit request
+2025-08-03 20:30:06,860 INFO waiting for php-fpm, telegram-bot to die
+2025-08-03 20:30:06,864 WARN stopped: telegram-bot (terminated by SIGTERM)
+2025-08-03 20:30:06,886 INFO stopped: php-fpm (exit status 0)
+2025-08-03 20:30:22,106 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-03 20:30:22,118 INFO supervisord started with pid 1
+2025-08-03 20:30:23,123 INFO spawned: 'php-fpm' with pid 12
+2025-08-03 20:30:23,127 INFO spawned: 'telegram-bot' with pid 13
+2025-08-03 20:30:24,176 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-03 20:30:24,177 INFO success: telegram-bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

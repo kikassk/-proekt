@@ -20,7 +20,7 @@ return
         ],
          'development' => [
             'adapter' => 'mysql',
-            'host' => '172.21.0.2', // <--- ВАШ IP-АДРЕС СЮДА
+            'host' => 'db', // <--- ВАШ IP-АДРЕС СЮДА
             'name' => 'hleb',
             'user' => 'hleb',
             'pass' => 'toaster',
