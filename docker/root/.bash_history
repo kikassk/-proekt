@@ -24,3 +24,10 @@ cd /hleb
 /usr/local/bin/composer install
 docker-compose exec php php /hleb/vendor/bin/phinx status --configuration /hleb/phinx.php
 exit
+cd /hleb
+/usr/local/bin/composer install
+docker-compose exec php php /hleb/vendor/bin/phinx migrate --configuration /hleb/phinx.php
+exit
+cd /hleb
+/usr/local/bin/composer install
+exit

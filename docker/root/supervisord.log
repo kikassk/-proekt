@@ -44,3 +44,71 @@
 2025-08-03 20:30:23,127 INFO spawned: 'telegram-bot' with pid 13
 2025-08-03 20:30:24,176 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2025-08-03 20:30:24,177 INFO success: telegram-bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-06 17:47:41,422 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-06 17:47:41,475 INFO supervisord started with pid 1
+2025-08-06 17:47:42,499 INFO spawned: 'php-fpm' with pid 12
+2025-08-06 17:47:42,506 INFO spawned: 'telegram-bot' with pid 13
+2025-08-06 17:47:43,658 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-06 17:47:43,659 INFO success: telegram-bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-06 17:55:08,296 WARN received SIGQUIT indicating exit request
+2025-08-06 17:55:08,299 INFO waiting for php-fpm, telegram-bot to die
+2025-08-06 17:55:08,309 WARN stopped: telegram-bot (terminated by SIGTERM)
+2025-08-06 17:55:08,329 INFO stopped: php-fpm (exit status 0)
+2025-08-06 17:55:41,971 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-06 17:55:41,979 INFO supervisord started with pid 1
+2025-08-06 17:55:42,983 INFO spawned: 'php-fpm' with pid 12
+2025-08-06 17:55:42,986 INFO spawned: 'telegram-bot' with pid 13
+2025-08-06 17:55:44,058 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-06 17:55:44,059 INFO success: telegram-bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-06 17:55:45,062 WARN received SIGQUIT indicating exit request
+2025-08-06 17:55:45,063 INFO waiting for php-fpm, telegram-bot to die
+2025-08-06 17:55:45,085 WARN stopped: telegram-bot (terminated by SIGTERM)
+2025-08-06 17:55:45,107 INFO stopped: php-fpm (exit status 0)
+2025-08-06 17:56:02,157 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-06 17:56:02,166 INFO supervisord started with pid 1
+2025-08-06 17:56:03,170 INFO spawned: 'php-fpm' with pid 12
+2025-08-06 17:56:03,175 INFO spawned: 'telegram-bot' with pid 13
+2025-08-06 17:56:04,230 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-06 17:56:04,231 INFO success: telegram-bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-06 19:08:18,975 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-06 19:08:18,994 INFO supervisord started with pid 1
+2025-08-06 19:08:19,999 INFO spawned: 'php-fpm' with pid 12
+2025-08-06 19:08:20,007 INFO spawned: 'telegram-bot' with pid 13
+2025-08-06 19:08:21,275 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-06 19:08:21,277 INFO success: telegram-bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-06 19:11:18,483 WARN received SIGQUIT indicating exit request
+2025-08-06 19:11:18,485 INFO waiting for php-fpm, telegram-bot to die
+2025-08-06 19:11:18,492 WARN stopped: telegram-bot (terminated by SIGTERM)
+2025-08-06 19:11:18,509 INFO stopped: php-fpm (exit status 0)
+2025-08-06 19:11:30,694 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-06 19:11:30,701 INFO supervisord started with pid 1
+2025-08-06 19:11:31,707 INFO spawned: 'php-fpm' with pid 13
+2025-08-06 19:11:31,711 INFO spawned: 'telegram-bot' with pid 14
+2025-08-06 19:11:32,804 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-06 19:11:32,805 INFO success: telegram-bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-06 19:21:02,800 WARN received SIGQUIT indicating exit request
+2025-08-06 19:21:02,802 INFO waiting for php-fpm, telegram-bot to die
+2025-08-06 19:21:02,808 WARN stopped: telegram-bot (terminated by SIGTERM)
+2025-08-06 19:21:02,825 INFO stopped: php-fpm (exit status 0)
+2025-08-06 19:21:14,288 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-06 19:21:14,294 INFO supervisord started with pid 1
+2025-08-06 19:21:15,298 INFO spawned: 'php-fpm' with pid 12
+2025-08-06 19:21:15,302 INFO spawned: 'telegram-bot' with pid 13
+2025-08-06 19:21:16,376 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-06 19:21:16,377 INFO success: telegram-bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-06 19:26:29,744 WARN received SIGQUIT indicating exit request
+2025-08-06 19:26:29,745 INFO waiting for php-fpm, telegram-bot to die
+2025-08-06 19:26:29,751 WARN stopped: telegram-bot (terminated by SIGTERM)
+2025-08-06 19:26:29,777 INFO stopped: php-fpm (exit status 0)
+2025-08-06 19:26:43,247 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-06 19:26:43,255 INFO supervisord started with pid 1
+2025-08-06 19:26:44,260 INFO spawned: 'php-fpm' with pid 12
+2025-08-06 19:26:44,264 INFO spawned: 'telegram-bot' with pid 13
+2025-08-06 19:26:45,313 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-06 19:26:45,314 INFO success: telegram-bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-06 19:35:22,877 WARN received SIGQUIT indicating exit request
+2025-08-06 19:35:22,880 INFO waiting for php-fpm, telegram-bot to die
+2025-08-06 19:35:22,901 WARN stopped: telegram-bot (terminated by SIGTERM)
+2025-08-06 19:35:22,930 INFO stopped: php-fpm (exit status 0)
+2025-08-06 19:35:38,203 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-08-06 19:35:38,209 INFO supervisord started with pid 1
