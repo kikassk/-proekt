@@ -19,15 +19,11 @@ final class CreateCategoriesTable extends AbstractMigration
      */
     public function change(): void
     {
-        // Создаем таблицу 'categories'
+       
         $table = $this->table('categories');
-
-        // Добавляем колонки
         $table->addColumn('name', 'string', ['limit' => 255])
               ->addColumn('description', 'text', ['null' => true])
               ->addTimestamps(); // Добавляет created_at и updated_at
-
-        // Применяем создание таблицы
         $table->create();
     }
 }

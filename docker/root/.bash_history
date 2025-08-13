@@ -31,3 +31,27 @@ exit
 cd /hleb
 /usr/local/bin/composer install
 exit
+cd /hleb
+/usr/local/bin/composer install
+exit
+cd /hleb
+/usr/local/bin/composer install
+exit
+cd /hleb
+/usr/local/bin/composer install
+exit
+exit
+cd /hleb
+RUN apt update && apt install -y ca-certificates && update-ca-certificates
+/usr/local/bin/composer install
+exit
+cd /hleb
+docker-compose exec php bashcd /hleb
+/usr/local/bin/composer install
+exit
+cd /hleb
+/usr/local/bin/composer install
+exit
+cd /hleb
+/usr/local/bin/composer install
+exit
