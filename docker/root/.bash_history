@@ -55,3 +55,14 @@ exit
 cd /hleb
 /usr/local/bin/composer install
 exit
+cd /hleb
+/usr/local/bin/composer install
+exit
+cd /hleb
+/usr/local/bin/composer install
+docker-compose exec php mysql -h db -u hleb -ptoaster hleb -e "SHOW TABLES;"
+exit
+find /hleb/vendor -name "JsonResponse.php"
+cd /hleb
+find /hleb/vendor -name "JsonResponse.php"
+exit
