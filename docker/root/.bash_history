@@ -66,3 +66,33 @@ find /hleb/vendor -name "JsonResponse.php"
 cd /hleb
 find /hleb/vendor -name "JsonResponse.php"
 exit
+cd /hleb
+/usr/local/bin/composer install
+exit
+cd /hleb
+/usr/local/bin/composer install
+exiy
+exit
+cd /hleb
+php console --routes-upd
+exit
+cd /hleb
+curl -X GET http://localhost:5125/api/v1/cart
+curl http://nginx/api/v1/cart
+exit
+cd /hleb
+curl http://nginx/api/v1/cart
+exit
+cd /hleb
+/usr/local/bin/composer install
+curl http://nginx/api/v1/cart
+exit
+cd /hleb
+curl http://nginx/api/v1/cart
+exit
+cd /hleb
+curl http://nginx/api/v1/cart
+curl http://nginx/api/v1/cart
+curl http://nginx/api/v1/cart
+curl http://nginx/api/v1/cart
+exit

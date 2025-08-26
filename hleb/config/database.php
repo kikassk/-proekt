@@ -4,34 +4,20 @@ if (file_exists(__DIR__ . '/database-local.php')) {
     return (require __DIR__ . '/database-local.php');
 }
 
-/*
- * A configuration file to set a default connection and multiple database connections.
- * This file must be hidden when copying the project, as it contains important information.
- * Data can be recursively redefined in modules when creating a similar
- * /modules/{module_name}/config/database.php file.
- * You can pass PDO settings to the `options` parameter.
- *
- * Конфигурационный файл для задания подключения по умолчанию и вариантов подключения к базе данных.
- * Этот файл необходимо скрывать при копировании проекта, так как он содержит важную информацию.
- * Данные можно рекурсивно переопределить в модулях при создании аналогичного файла
- * /modules/{module_name}/config/database.php.
- * В параметр `options` можно передать настройки PDO.
- */
 return [
     'base.db.type' => env('DB_TYPE', 'mysql.name'),
-
     'mutex.db.type' => env('DB_MUTEX', 'mysql.name'),
     'redis.db.type' => env('DB_REDIS', 'redis.name'),
 
     'db.settings.list' => [
 
         'mysql.name' => [
-            'mysql:host=localhost',
-            'port=3306',
-            'dbname=%dbname%',
+            'mysql:host=' . env('MYSQL_HOST', 'db'), // Используем env() для хоста
+            'port=' . env('MYSQL_PORT', '3306'),     // Используем env() для порта
+            'dbname=' . env('MYSQL_DATABASE', ''),     // Используем env() для имени БД
             'charset=utf8',
-            'user' => '%username%',
-            'pass' => '%password%',
+            'user' => env('MYSQL_USER', ''),           // Используем env() для пользователя
+            'pass' => env('MYSQL_PASSWORD', ''),       // Используем env() для пароля
             'options' => [
             // \PDO::ATTR_PERSISTENT => TRUE
             ],
