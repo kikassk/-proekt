@@ -96,3 +96,6 @@ curl http://nginx/api/v1/cart
 curl http://nginx/api/v1/cart
 curl http://nginx/api/v1/cart
 exit
+cd /hleb
+/usr/local/bin/composer install
+exit
