@@ -340,3 +340,32 @@
 2025-08-26 12:06:41,389 INFO spawned: 'telegram-bot' with pid 14
 2025-08-26 12:06:42,438 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2025-08-26 12:06:42,439 INFO success: telegram-bot entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-08 17:02:46,308 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-09-08 17:02:46,314 INFO supervisord started with pid 1
+2025-09-08 17:02:47,319 INFO spawned: 'php-fpm' with pid 12
+2025-09-08 17:02:47,323 INFO spawned: 'telegram-bot' with pid 13
+2025-09-08 17:02:47,388 WARN exited: telegram-bot (exit status 255; not expected)
+2025-09-08 17:02:48,428 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-08 17:02:48,430 INFO spawned: 'telegram-bot' with pid 16
+2025-09-08 17:02:48,479 WARN exited: telegram-bot (exit status 255; not expected)
+2025-09-08 17:02:50,483 INFO spawned: 'telegram-bot' with pid 17
+2025-09-08 17:02:50,523 WARN exited: telegram-bot (exit status 255; not expected)
+2025-09-08 17:02:53,529 INFO spawned: 'telegram-bot' with pid 18
+2025-09-08 17:02:53,570 WARN exited: telegram-bot (exit status 255; not expected)
+2025-09-08 17:02:54,572 INFO gave up: telegram-bot entered FATAL state, too many start retries too quickly
+2025-09-08 17:06:07,780 WARN received SIGQUIT indicating exit request
+2025-09-08 17:06:07,780 INFO waiting for php-fpm to die
+2025-09-08 17:06:08,791 INFO stopped: php-fpm (exit status 0)
+2025-09-08 17:06:10,480 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-09-08 17:06:10,486 INFO supervisord started with pid 1
+2025-09-08 17:06:11,489 INFO spawned: 'php-fpm' with pid 12
+2025-09-08 17:06:11,492 INFO spawned: 'telegram-bot' with pid 13
+2025-09-08 17:06:11,542 WARN exited: telegram-bot (exit status 255; not expected)
+2025-09-08 17:06:12,560 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-08 17:06:12,562 INFO spawned: 'telegram-bot' with pid 16
+2025-09-08 17:06:12,602 WARN exited: telegram-bot (exit status 255; not expected)
+2025-09-08 17:06:14,606 INFO spawned: 'telegram-bot' with pid 17
+2025-09-08 17:06:14,648 WARN exited: telegram-bot (exit status 255; not expected)
+2025-09-08 17:06:17,654 INFO spawned: 'telegram-bot' with pid 18
+2025-09-08 17:06:17,693 WARN exited: telegram-bot (exit status 255; not expected)
+2025-09-08 17:06:18,695 INFO gave up: telegram-bot entered FATAL state, too many start retries too quickly
