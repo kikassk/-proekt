@@ -12,6 +12,6 @@ $table->addColumn('user_id', 'integer', ['signed' => false])
 ->addForeignKey('user_id', 'users', 'id', ['delete'=> 'CASCADE', 'update'=> 'NO_ACTION'])
 ->addForeignKey('product_id', 'products', 'id', ['delete'=> 'CASCADE', 'update'=> 'NO_ACTION'])
 ->addIndex(['user_id', 'product_id'], ['unique' => true])
-->create();
+->create();//....
 }
 }
