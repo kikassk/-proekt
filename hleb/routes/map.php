@@ -3,7 +3,7 @@
 
 use App\Controllers\CartController;
 
-
+use App\Controllers\FavoriteController;
 
 
 /*
@@ -26,3 +26,9 @@ Route::get('/api/v1/cart')->controller(CartController::class, 'getCart')->name('
 Route::post('/api/v1/cart/add')->controller(CartController::class, 'addProduct')->name('api.cart.add');
 Route::patch('/api/v1/cart/item/{itemId}')->controller(CartController::class, 'updateQuantity')->name('api.cart.update');
 Route::delete('/api/v1/cart/item/{itemId}')->controller(CartController::class, 'removeItem')->name('api.cart.remove');
+
+
+//API ищбранного
+Route::get('/api/v1/favorites')->controller(FavoriteController::class, 'getFavorites')->name('api.favorites.get');
+Route::post('/api/v1/favorites/add')->controller(FavoriteController::class, 'addFavorite')->name('api.favorites.add');
+Route::delete('/api/v1/favorites/remove/{productId}')->controller(FavoriteController::class, 'removeFavorite')->name('api.favorites.remove');

@@ -102,3 +102,9 @@ exit
 cd /hleb
 /usr/local/bin/composer install
 exit
+cd /hleb
+/usr/local/bin/composer install
+exit
+cd /hleb
+/usr/local/bin/composer install
+ exit
